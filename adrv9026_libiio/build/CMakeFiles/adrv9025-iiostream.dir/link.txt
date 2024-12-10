@@ -1,0 +1,1 @@
+/usr/bin/cc "CMakeFiles/adrv9025-iiostream.dir/adrv9025-iiostream.c.o" -o adrv9025-iiostream  -lm -liio libiio-helper.a 

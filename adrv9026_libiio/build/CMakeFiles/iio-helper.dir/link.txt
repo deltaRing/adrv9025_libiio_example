@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiio-helper.a "CMakeFiles/iio-helper.dir/src/iiostream-set-attribution.c.o" "CMakeFiles/iio-helper.dir/src/lsb2msb.c.o" "CMakeFiles/iio-helper.dir/src/lfm.c.o"
+/usr/bin/ranlib libiio-helper.a

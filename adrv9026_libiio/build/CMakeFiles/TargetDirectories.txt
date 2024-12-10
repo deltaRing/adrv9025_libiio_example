@@ -1,0 +1,4 @@
+/home/root/application/adrv9026_libiio/build/CMakeFiles/iio-helper.dir
+/home/root/application/adrv9026_libiio/build/CMakeFiles/adrv9025-iiostream.dir
+/home/root/application/adrv9026_libiio/build/CMakeFiles/edit_cache.dir
+/home/root/application/adrv9026_libiio/build/CMakeFiles/rebuild_cache.dir
