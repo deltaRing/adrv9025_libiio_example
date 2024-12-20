@@ -1,0 +1,2 @@
+/usr/bin/ar qc libiio-helper.a CMakeFiles/iio-helper.dir/src/Utilize/iiostream-set-attribution.cpp.o CMakeFiles/iio-helper.dir/src/Utilize/data_convert.cpp.o CMakeFiles/iio-helper.dir/src/Utilize/test_signal.cpp.o CMakeFiles/iio-helper.dir/src/Algorithms/LFM.cpp.o CMakeFiles/iio-helper.dir/src/Algorithms/MVDR.cpp.o CMakeFiles/iio-helper.dir/src/Algorithms/BeamPosing.cpp.o CMakeFiles/iio-helper.dir/src/Algorithms/Beamforming.cpp.o CMakeFiles/iio-helper.dir/src/Algorithms/PulseDetection.cpp.o
+/usr/bin/ranlib libiio-helper.a

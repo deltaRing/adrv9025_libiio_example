@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/adrv9025-iiostream.dir/adrv9025-iiostream.cpp.o -o adrv9025-iiostream   -L/usr/local/lib/arm-linux-gnueabihf  -Wl,-rpath,/usr/local/lib/arm-linux-gnueabihf -lm -liio libiio-helper.a -lfftw3 -lpthread 
