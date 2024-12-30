@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/root/application/adrv9026_libiio/build/CMakeFiles/3.24.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/root/adrv9026_libiio/build/CMakeFiles/3.24.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,15 +23,15 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/root/application/adrv9026_libiio/build/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/root/adrv9026_libiio/build/CMakeFiles/3.24.2/CompilerIdCXX/a.out"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp
+Change Dir: /home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1be04/fast && /usr/bin/make  -f CMakeFiles/cmTC_1be04.dir/build.make CMakeFiles/cmTC_1be04.dir/build
-make[1]: Entering directory '/home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4e56f/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e56f.dir/build.make CMakeFiles/cmTC_4e56f.dir/build
+make[1]: Entering directory '/home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 Target: aarch64-xilinx-linux
@@ -39,17 +39,17 @@ Configured with: ../../../../../../work-shared/gcc-12.2.0-r0/gcc-12.2.0/configur
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_1be04.dir/'
- /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1 -quiet -v /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1be04.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/ccuBaMg9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e56f.dir/'
+ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1 -quiet -v /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4e56f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/ccKoHDe8.s
 GNU C17 (GCC) version 12.2.0 (aarch64-xilinx-linux)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/local/include"
 ignoring nonexistent directory "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/include"
 #include "..." search starts here:
 #include <...> search starts here:
  /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include
  /usr/lib/aarch64-xilinx-linux/12.2.0/include
+ /usr/local/include
  /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed
  /usr/include
 End of search list.
@@ -57,15 +57,15 @@ GNU C17 (GCC) version 12.2.0 (aarch64-xilinx-linux)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 9108fb54a5b23d22741cef1c81080291
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_1be04.dir/'
- /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o /tmp/ccuBaMg9.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e56f.dir/'
+ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o /tmp/ccKoHDe8.s
 GNU assembler version 2.39.0 (aarch64-xilinx-linux) using BFD version (GNU Binutils) 2.39.0.20220819
 COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.'
-Linking C executable cmTC_1be04
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1be04.dir/link.txt --verbose=1
-/usr/bin/cc  -v CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o -o cmTC_1be04 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_4e56f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e56f.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o -o cmTC_4e56f 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper
@@ -76,10 +76,10 @@ Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1be04' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_1be04.'
- /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSNj1aL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_1be04 /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1be04' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_1be04.'
-make[1]: Leaving directory '/home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e56f' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4e56f.'
+ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPjCrpw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_4e56f /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e56f' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4e56f.'
+make[1]: Leaving directory '/home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -88,24 +88,26 @@ Parsed C implicit include dir info from above output: rv=done
   found start of implicit include info
     add: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include]
     add: [/usr/lib/aarch64-xilinx-linux/12.2.0/include]
+    add: [/usr/local/include]
     add: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed]
     add: [/usr/include]
   end of search list found
   collapse include dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include] ==> [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include]
   collapse include dir [/usr/lib/aarch64-xilinx-linux/12.2.0/include] ==> [/usr/lib/aarch64-xilinx-linux/12.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
   collapse include dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed] ==> [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include]
+  implicit include dirs: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/local/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_1be04/fast && /usr/bin/make  -f CMakeFiles/cmTC_1be04.dir/build.make CMakeFiles/cmTC_1be04.dir/build]
-  ignore line: [make[1]: Entering directory '/home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_4e56f/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e56f.dir/build.make CMakeFiles/cmTC_4e56f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [Target: aarch64-xilinx-linux]
@@ -113,17 +115,17 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_1be04.dir/']
-  ignore line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1 -quiet -v /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_1be04.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/ccuBaMg9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e56f.dir/']
+  ignore line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1 -quiet -v /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_4e56f.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlittle-endian -mabi=lp64 -version -o /tmp/ccKoHDe8.s]
   ignore line: [GNU C17 (GCC) version 12.2.0 (aarch64-xilinx-linux)]
   ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/local/include"]
   ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
   ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include]
   ignore line: [ /usr/lib/aarch64-xilinx-linux/12.2.0/include]
+  ignore line: [ /usr/local/include]
   ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
@@ -131,15 +133,15 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 9108fb54a5b23d22741cef1c81080291]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_1be04.dir/']
-  ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o /tmp/ccuBaMg9.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e56f.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o /tmp/ccKoHDe8.s]
   ignore line: [GNU assembler version 2.39.0 (aarch64-xilinx-linux) using BFD version (GNU Binutils) 2.39.0.20220819]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.']
-  ignore line: [Linking C executable cmTC_1be04]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1be04.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o -o cmTC_1be04 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_4e56f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e56f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o -o cmTC_4e56f ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper]
@@ -150,13 +152,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 12.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1be04' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_1be04.']
-  link line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSNj1aL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_1be04 /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e56f' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_4e56f.']
+  link line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPjCrpw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_4e56f /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o]
     arg [/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccSNj1aL.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccPjCrpw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -172,7 +174,7 @@ Parsed C implicit link information from above output:
     arg [-maarch64linux] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1be04] ==> ignore
+    arg [cmTC_4e56f] ==> ignore
     arg [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o]
     arg [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o] ==> obj [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o]
     arg [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o]
@@ -180,7 +182,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0]
     arg [-L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../..] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../..]
     arg [-L/usr/lib/aarch64-xilinx-linux/12.2.0] ==> dir [/usr/lib/aarch64-xilinx-linux/12.2.0]
-    arg [CMakeFiles/cmTC_1be04.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_4e56f.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -210,12 +212,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp
+Change Dir: /home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9dbbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_9dbbc.dir/build.make CMakeFiles/cmTC_9dbbc.dir/build
-make[1]: Entering directory '/home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++   -v -o CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_52469/fast && /usr/bin/make  -f CMakeFiles/cmTC_52469.dir/build.make CMakeFiles/cmTC_52469.dir/build
+make[1]: Entering directory '/home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 Target: aarch64-xilinx-linux
@@ -223,12 +225,11 @@ Configured with: ../../../../../../work-shared/gcc-12.2.0-r0/gcc-12.2.0/configur
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_9dbbc.dir/'
- /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9dbbc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccI1RQxi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_52469.dir/'
+ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_52469.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/cc6nXhLw.s
 GNU C++17 (GCC) version 12.2.0 (aarch64-xilinx-linux)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/local/include"
 ignoring nonexistent directory "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/include"
 #include "..." search starts here:
 #include <...> search starts here:
@@ -237,6 +238,7 @@ ignoring nonexistent directory "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.
  /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../include/c++/12.2.0/backward
  /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include
  /usr/lib/aarch64-xilinx-linux/12.2.0/include
+ /usr/local/include
  /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed
  /usr/include
 End of search list.
@@ -244,15 +246,15 @@ GNU C++17 (GCC) version 12.2.0 (aarch64-xilinx-linux)
 	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.1.1, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 2f12880822c123595e015a0cb91e1988
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_9dbbc.dir/'
- /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccI1RQxi.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_52469.dir/'
+ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6nXhLw.s
 GNU assembler version 2.39.0 (aarch64-xilinx-linux) using BFD version (GNU Binutils) 2.39.0.20220819
 COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.'
-Linking CXX executable cmTC_9dbbc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dbbc.dir/link.txt --verbose=1
-/usr/bin/c++  -v CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9dbbc 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_52469
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52469.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_52469 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper
@@ -263,10 +265,10 @@ Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (GCC) 
 COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/
 LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dbbc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_9dbbc.'
- /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAuZZ5c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_9dbbc /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dbbc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_9dbbc.'
-make[1]: Leaving directory '/home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52469' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_52469.'
+ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDxtf0R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_52469 /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52469' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_52469.'
+make[1]: Leaving directory '/home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp'
 
 
 
@@ -278,6 +280,7 @@ Parsed CXX implicit include dir info from above output: rv=done
     add: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../include/c++/12.2.0/backward]
     add: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include]
     add: [/usr/lib/aarch64-xilinx-linux/12.2.0/include]
+    add: [/usr/local/include]
     add: [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed]
     add: [/usr/include]
   end of search list found
@@ -286,19 +289,20 @@ Parsed CXX implicit include dir info from above output: rv=done
   collapse include dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../include/c++/12.2.0/backward] ==> [/usr/include/c++/12.2.0/backward]
   collapse include dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include] ==> [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include]
   collapse include dir [/usr/lib/aarch64-xilinx-linux/12.2.0/include] ==> [/usr/lib/aarch64-xilinx-linux/12.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
   collapse include dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed] ==> [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed]
   collapse include dir [/usr/include] ==> [/usr/include]
-  implicit include dirs: [/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/aarch64-xilinx-linux;/usr/include/c++/12.2.0/backward;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include]
+  implicit include dirs: [/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/aarch64-xilinx-linux;/usr/include/c++/12.2.0/backward;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/local/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_9dbbc/fast && /usr/bin/make  -f CMakeFiles/cmTC_9dbbc.dir/build.make CMakeFiles/cmTC_9dbbc.dir/build]
-  ignore line: [make[1]: Entering directory '/home/root/application/adrv9026_libiio/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_52469/fast && /usr/bin/make  -f CMakeFiles/cmTC_52469.dir/build.make CMakeFiles/cmTC_52469.dir/build]
+  ignore line: [make[1]: Entering directory '/home/root/adrv9026_libiio/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [Target: aarch64-xilinx-linux]
@@ -306,12 +310,11 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_9dbbc.dir/']
-  ignore line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9dbbc.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccI1RQxi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_52469.dir/']
+  ignore line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_52469.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/cc6nXhLw.s]
   ignore line: [GNU C++17 (GCC) version 12.2.0 (aarch64-xilinx-linux)]
   ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/local/include"]
   ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
@@ -320,6 +323,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../include/c++/12.2.0/backward]
   ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include]
   ignore line: [ /usr/lib/aarch64-xilinx-linux/12.2.0/include]
+  ignore line: [ /usr/local/include]
   ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
@@ -327,15 +331,15 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.1.1  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 2f12880822c123595e015a0cb91e1988]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_9dbbc.dir/']
-  ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccI1RQxi.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_52469.dir/']
+  ignore line: [ /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc6nXhLw.s]
   ignore line: [GNU assembler version 2.39.0 (aarch64-xilinx-linux) using BFD version (GNU Binutils) 2.39.0.20220819]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [Linking CXX executable cmTC_9dbbc]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dbbc.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9dbbc ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_52469]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52469.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_52469 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper]
@@ -346,13 +350,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 12.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/:/usr/libexec/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../../aarch64-xilinx-linux/bin/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/:/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../:/lib/:/usr/lib/aarch64-xilinx-linux/12.2.0/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9dbbc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_9dbbc.']
-  link line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAuZZ5c.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_9dbbc /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_52469' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_52469.']
+  link line: [ /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2 -plugin /usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDxtf0R.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_52469 /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0 -L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../.. -L/usr/lib/aarch64-xilinx-linux/12.2.0 CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtendS.o /usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crtn.o]
     arg [/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/libexec/gcc/aarch64-xilinx-linux/12.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAuZZ5c.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDxtf0R.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -368,7 +372,7 @@ Parsed CXX implicit link information from above output:
     arg [-maarch64linux] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9dbbc] ==> ignore
+    arg [cmTC_52469] ==> ignore
     arg [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../Scrt1.o]
     arg [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o] ==> obj [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../crti.o]
     arg [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0/crtbeginS.o]
@@ -376,7 +380,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../../aarch64-xilinx-linux/12.2.0]
     arg [-L/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../..] ==> dir [/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/../../..]
     arg [-L/usr/lib/aarch64-xilinx-linux/12.2.0] ==> dir [/usr/lib/aarch64-xilinx-linux/12.2.0]
-    arg [CMakeFiles/cmTC_9dbbc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_52469.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]

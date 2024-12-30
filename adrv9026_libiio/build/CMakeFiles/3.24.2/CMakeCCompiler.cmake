@@ -66,7 +66,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/local/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0;/usr/lib/aarch64-xilinx-linux/12.2.0;/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

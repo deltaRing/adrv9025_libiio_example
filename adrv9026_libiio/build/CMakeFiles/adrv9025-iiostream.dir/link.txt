@@ -1,1 +1,1 @@
-/usr/bin/cc "CMakeFiles/adrv9025-iiostream.dir/adrv9025-iiostream.c.o" -o adrv9025-iiostream  -lm -liio libiio-helper.a 
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/adrv9025-iiostream.dir/adrv9025-iiostream.cpp.o" -o adrv9025-iiostream   -L/usr/local/lib64  -Wl,-rpath,/usr/local/lib64 -lm -liio libiio-helper.a -lfftw3 -lpthread 

@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/aarch64-xilinx-linux;/usr/include/c++/12.2.0/backward;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/c++/12.2.0;/usr/include/c++/12.2.0/aarch64-xilinx-linux;/usr/include/c++/12.2.0/backward;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include;/usr/lib/aarch64-xilinx-linux/12.2.0/include;/usr/local/include;/usr/lib/gcc/aarch64-xilinx-linux/12.2.0/include-fixed;/usr/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/aarch64-xilinx-linux/12.2.0;/usr/lib/aarch64-xilinx-linux/12.2.0;/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
