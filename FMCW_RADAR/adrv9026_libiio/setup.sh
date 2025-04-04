@@ -1,0 +1,1 @@
+echo 1 > /sys/kernel/debug/iio/iio:device4/pl_ddr_fifo_enable
